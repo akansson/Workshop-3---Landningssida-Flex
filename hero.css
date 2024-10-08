@@ -1,0 +1,19 @@
+.main-sell-container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 50% 20%;
+  grid-template-rows: 20% 20% 20% 50% 20%;
+  border: 1px solid red;
+  padding: 20px;
+}
+
+.sell-text {
+  grid-area: 1 / 4 / 6 / 6;
+}
+
+.h1 {
+  align-content: center;
+}
+
+.h2 {
+  justify-content: center;
+}

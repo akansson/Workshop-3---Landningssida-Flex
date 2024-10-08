@@ -1,0 +1,57 @@
+.main-header {
+  background-image: url(/images/chas-header-background.jpg);
+  background-size: cover;
+}
+
+.header-container {
+  display: flex;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  padding: 20px;
+}
+
+.link {
+  color: white;
+}
+
+.link-button {
+  color: white;
+  background: blue;
+}
+
+.logo1 {
+  display: flex;
+  width: 59px;
+  align-self: flex-start;
+  padding: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.header-intro {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  color: white;
+}
+
+.header-text {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  color: white;
+}
