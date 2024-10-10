@@ -5,12 +5,12 @@
 
 .header-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .header {
   display: flex;
   flex-direction: row;
-  justify-content: end;
   align-items: center;
   padding: 20px;
 }
@@ -19,9 +19,9 @@
   color: white;
 }
 
-.link-button {
+.b1 {
   color: white;
-  background: blue;
+  background-color: blue;
 }
 
 .logo1 {

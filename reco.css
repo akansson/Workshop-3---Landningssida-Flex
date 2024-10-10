@@ -1,0 +1,35 @@
+.reco-main {
+  display: flex;
+}
+
+.reco-header {
+  display: flex;
+  justify-content: center;
+}
+
+.student1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.student2 {
+  display: flex;
+  justify-content: center;
+}
+
+.student3 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.johannes-img {
+  height: 400px;
+}
+
+.kleopatra-img {
+  height: 400px;
+}
+
+.sebbe-img {
+  height: 400px;
+}

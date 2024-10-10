@@ -17,3 +17,25 @@
 .h2 {
   justify-content: center;
 }
+
+.hero-img {
+  width: 300px;
+  border: 1px solid black;
+  grid-row: 1 / 2;
+}
+
+.button-container {
+  border: 2px solid red;
+}
+
+.b2 {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.b3 {
+  background-color: white;
+  color: black;
+  padding: 10px;
+}

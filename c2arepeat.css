@@ -1,0 +1,30 @@
+.main-c2a {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(26, 99, 209);
+  height: 500px;
+}
+
+.c2a-text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.button.cont {
+  display: flex;
+}
+
+.b4 {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+}
+
+.b5 {
+  background-color: white;
+  border: 1px solid transparent;
+  padding: 10px;
+  color: rgb(26, 99, 209);
+}
