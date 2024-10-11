@@ -1,35 +1,50 @@
 .reco-main {
   display: flex;
+  border: 1px solid black;
 }
 
 .reco-header {
   display: flex;
   justify-content: center;
+  border: 1px solid black;
 }
 
-.student1 {
+.images {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 1px solid black;
 }
 
-.student2 {
+.h1 {
   display: flex;
-  justify-content: center;
+  border: 1px solid black;
+  justify-content: space-evenly;
 }
 
-.student3 {
+.a1 {
   display: flex;
-  justify-content: flex-end;
+  border: 1px solid black;
+  justify-content: space-evenly;
+}
+
+.names {
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-evenly;
 }
 
 .johannes-img {
-  height: 400px;
+  height: 300px;
+  border: 1px solid black;
 }
 
 .kleopatra-img {
-  height: 400px;
+  height: 300px;
+  border: 1px solid black;
 }
 
 .sebbe-img {
-  height: 400px;
+  height: 300px;
+  border: 1px solid black;
 }
