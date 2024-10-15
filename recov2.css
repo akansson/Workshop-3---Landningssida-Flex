@@ -1,0 +1,80 @@
+.reco-main {
+  display: flex;
+  border: 1px solid black;
+}
+
+.reco-header {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 1px solid black;
+}
+
+.h1 {
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-evenly;
+}
+
+.a1 {
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-evenly;
+}
+
+.names {
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-evenly;
+}
+
+.johannes-img {
+  height: 300px;
+  border: 1px solid black;
+}
+
+.kleopatra-img {
+  height: 300px;
+  border: 1px solid black;
+}
+
+.sebbe-img {
+  height: 300px;
+  border: 1px solid black;
+}
+
+.reco-header {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  max-width: 100%;
+  margin: ;
+}
+
+.reco-main {
+  display: flex;
+  border: 1px solid black;
+  max-width: 100%;
+  margin: ;
+}
+
+.johannes-img {
+  height: 300px;
+  border: 1px solid black;
+}
+
+.kleopatra-img {
+  height: 300px;
+  border: 1px solid black;
+}
+
+.sebbe-img {
+  height: 300px;
+  border: 1px solid black;
+}

@@ -1,41 +1,65 @@
+@font-face {
+  font-family: "DIN Regular";
+  src: url("DIN-Regular.woff");
+}
+
+body {
+  font-family: "DIN Regular";
+}
+
 .main-sell-container {
-  display: grid;
-  grid-template-columns: 20% 20% 20% 50% 20%;
-  grid-template-rows: 20% 20% 20% 50% 20%;
-  border: 1px solid red;
-  padding: 20px;
-}
-
-.sell-text {
-  grid-area: 1 / 4 / 6 / 6;
-}
-
-.h1 {
-  align-content: center;
-}
-
-.h2 {
-  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  justify-content: space-evenly;
+  background-color: rgb(248, 249, 249);
 }
 
 .hero-img {
-  width: 300px;
-  border: 1px solid black;
-  grid-row: 1 / 2;
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
 }
 
-.button-container {
-  border: 2px solid red;
+.hero-img1 {
+  max-width: 80%;
+  max-height: 80%;
+  align-self: center;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 50%;
+}
+
+.sell-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20%;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 5%;
 }
 
 .b2 {
+  border-radius: 10px;
   background-color: black;
   color: white;
-  padding: 10px;
+  border-color: black;
+  padding: 5px;
 }
 
 .b3 {
+  border-radius: 10px;
   background-color: white;
   color: black;
-  padding: 10px;
+  border-color: black;
+  padding: 5px;
+  margin-left: 5%;
 }

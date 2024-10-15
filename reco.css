@@ -1,50 +1,54 @@
-.reco-main {
-  display: flex;
-  border: 1px solid black;
+@font-face {
+  font-family: "DIN Regular";
+  src: url("DIN-Regular.woff");
+}
+
+body {
+  font-family: "DIN Regular";
 }
 
 .reco-header {
-  display: flex;
-  justify-content: center;
-  border: 1px solid black;
+  text-align: center;
 }
 
-.images {
+.reco-container {
+  display: flex;
+}
+
+.reco-main {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  border: 1px solid black;
+  max-width: 100%;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-.h1 {
+.student {
   display: flex;
-  border: 1px solid black;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.a1 {
+.reco-image {
   display: flex;
-  border: 1px solid black;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
-.names {
+.student-img {
+  border-radius: 10px;
+  max-height: 300px;
+}
+
+.reco-content {
   display: flex;
-  border: 1px solid black;
-  justify-content: space-evenly;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-right: auto;
 }
 
-.johannes-img {
-  height: 300px;
-  border: 1px solid black;
-}
-
-.kleopatra-img {
-  height: 300px;
-  border: 1px solid black;
-}
-
-.sebbe-img {
-  height: 300px;
-  border: 1px solid black;
+.reco-footer {
+  display: flex;
+  margin-left: 5%;
+  margin-right: auto;
 }

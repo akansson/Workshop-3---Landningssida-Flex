@@ -1,11 +1,30 @@
+@font-face {
+  font-family: "DIN Regular";
+  src: url("DIN-Regular.woff");
+}
+
+body {
+  font-family: "DIN Regular";
+}
+
 .main-header {
   background-image: url(/images/chas-header-background.jpg);
   background-size: cover;
+  min-height: 600px;
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
+}
+
+.header-logo {
+  display: flex;
+}
+
+.header-link-container {
+  display: flex;
+  align-items: space-between;
 }
 
 .header {
@@ -26,7 +45,7 @@
 
 .logo1 {
   display: flex;
-  width: 59px;
+  width: 100px;
   align-self: flex-start;
   padding: 20px;
 }

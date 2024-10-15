@@ -1,17 +1,26 @@
-.main-footer {
-  display: flex;
-  border: 1px solid black;
-  height: 350px;
-  justify-content: space-between;
+@font-face {
+  font-family: "DIN Regular";
+  src: url("DIN-Regular.woff");
 }
 
-.f1 {
-  background-image: url(https://www.datocms-assets.com/91872/1685008177-chas_footer_background.png?dpr=0.5&fit=clamp&fm=webp);
-  background-size: cover;
+body {
+  font-family: "DIN Regular";
+}
+
+.main-footer {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  justify-content: space-between;
+  background-color: rgb(248, 249, 249);
+}
+
+.footer-left {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  border: 1px solid black;
 }
 
 .f2 {
@@ -20,19 +29,42 @@
 
 .b3 {
   background-color: transparent;
+  border-radius: 10px;
+  padding: 15px 30px 12px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  max-width: 50%;
 }
 
 .footer-links1 {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  max-width: 25%;
 }
 
 .footer-links2 {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  max-width: 25%;
+}
+
+.footer-logo {
+  display: flex;
+  max-width: 25%;
 }
 
 .logo2 {
   display: flex;
   height: 150px;
+  border: 1px solid black;
 }
+
+background-image: url(https://www.datocms-assets.com/91872/1685008177-chas_footer_background.png?dpr=0.5&fit=clamp&fm=webp);
+background-size: cover;
