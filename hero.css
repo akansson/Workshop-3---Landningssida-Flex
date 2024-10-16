@@ -5,61 +5,48 @@
 
 body {
   font-family: "DIN Regular";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.main-sell-container {
+.hero-container {
   display: flex;
-  flex-direction: row;
-  border: 1px solid black;
-  justify-content: space-evenly;
-  background-color: rgb(248, 249, 249);
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #f8f9f9;
+  margin-bottom: 40px;
 }
 
-.hero-img {
-  display: flex;
-  justify-content: center;
-  max-width: 50%;
-}
-
-.hero-img1 {
-  max-width: 80%;
-  max-height: 80%;
-  align-self: center;
+.hero-image img {
+  width: 500px;
+  height: auto;
 }
 
 .hero-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   max-width: 50%;
 }
 
-.sell-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-right: 20%;
+.hero-text p {
+  font-size: 20px;
 }
 
-.hero-buttons {
-  display: flex;
-  justify-content: flex-start;
-  margin-top: 5%;
+.hero-buttons button {
+  margin-right: 20px;
+  padding: 10px 20px;
 }
 
-.b2 {
-  border-radius: 10px;
+.apply-button2 {
   background-color: black;
   color: white;
-  border-color: black;
-  padding: 5px;
+  border: none;
+  border-radius: 15px;
 }
 
-.b3 {
-  border-radius: 10px;
+.read-more-button {
   background-color: white;
   color: black;
-  border-color: black;
-  padding: 5px;
-  margin-left: 5%;
+  border: 1px solid black;
+  border-radius: 15px;
 }

@@ -1,0 +1,359 @@
+@font-face {
+  font-family: "DIN Regular";
+  src: url("DIN-Regular.woff");
+}
+
+body {
+  font-family: "DIN Regular";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1200px) {
+  .hero-container,
+  .c2a-container,
+  .reco-container,
+  .reco-main {
+    flex-direction: column;
+  }
+
+  .hero-image img,
+  .c2a-video video {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-navigation {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-navigation a,
+  .apply-button {
+    margin: 10px 0;
+  }
+
+  .hero-section {
+    padding: 50px 20px;
+  }
+
+  .c2a-buttons {
+    flex-direction: column;
+  }
+
+  .reco-container,
+  .reco-main {
+    flex-direction: column;
+  }
+
+  .main-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* HEADER */
+
+.main-header {
+  background-image: url("/images/chas-header-background.jpg");
+  background-size: cover;
+  min-height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  align-items: center;
+}
+
+.header-logo img {
+  width: 120px;
+}
+
+.header-navigation a,
+.apply-button {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.apply-button {
+  background-color: #4c64ff;
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-content h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.hero-content p {
+  font-size: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+/* HERO */
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #f8f9f9;
+  margin-bottom: 40px;
+}
+
+.hero-image img {
+  width: 500px;
+  height: auto;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text p {
+  font-size: 20px;
+}
+
+.hero-buttons button {
+  margin-right: 20px;
+  padding: 10px 20px;
+}
+
+.apply-button2 {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 15px;
+}
+
+.read-more-button {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+/* CALL TO ACTION */
+
+.c2a-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #4c64ff;
+  padding: 50px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.c2a-content {
+  max-width: 50%;
+}
+
+.c2a-buttons .apply-btn,
+.apply-btn-alt {
+  margin-right: 20px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: none;
+}
+
+.apply-btn {
+  background-color: white;
+  color: #4c64ff;
+}
+
+.apply-btn-alt {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.c2a-video video {
+  width: 80%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 15px;
+}
+
+/* RECOMMENDATIONS */
+
+.reco-header {
+  text-align: center;
+}
+
+.reco-container {
+  display: flex;
+  margin-bottom: 10%;
+}
+
+.reco-main {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  align-items: flex-start;
+}
+
+.student {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.reco-image {
+  display: flex;
+  justify-content: center;
+}
+
+.student-img {
+  border-radius: 10px;
+  max-height: 300px;
+}
+
+.reco-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-right: auto;
+}
+
+.reco-footer {
+  display: flex;
+  margin-left: 5%;
+  margin-right: auto;
+}
+
+/* FOOTER */
+
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  align-items: center;
+}
+
+.footer-background {
+  position: absolute;
+  bottom: 1;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  background-image: url(https://www.datocms-assets.com/91872/1685008177-chas_footer_background.png?dpr=0.5&fit=clamp&fm=webp);
+  background-size: contain;
+  background-position: start;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 25px;
+  padding: 5%;
+}
+
+.f2 {
+  border: 1px solid;
+}
+
+.b3 {
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 15px 30px 12px;
+  font-weight: bold;
+  border: 1px solid black;
+  font-size: 14px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  max-width: 50%;
+  justify-content: space-between;
+  align-items: stretch;
+  font-size: 18px;
+}
+
+.footer-links p {
+  font-weight: normal;
+}
+
+.footer-links1 a,
+.footer-links2 a {
+  margin-bottom: 15px;
+}
+
+.footer-links1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 25%;
+  white-space: nowrap;
+}
+
+.footer-links2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 25%;
+  white-space: nowrap;
+}
+
+.canvas-buton button {
+  padding: 5px 10px;
+  font-size: 12px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background: transparent;
+}
+
+.canvas-buton img {
+  width: 70px;
+  height: auto;
+}
+
+.footer-logo {
+  display: flex;
+  max-width: 25%;
+}
+
+.logo2 {
+  display: flex;
+  height: 150px;
+}

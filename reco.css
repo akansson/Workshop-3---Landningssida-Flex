@@ -5,6 +5,9 @@
 
 body {
   font-family: "DIN Regular";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .reco-header {
@@ -13,6 +16,7 @@ body {
 
 .reco-container {
   display: flex;
+  margin-bottom: 10%;
 }
 
 .reco-main {
@@ -22,6 +26,7 @@ body {
   justify-content: center;
   margin-left: 10%;
   margin-right: 10%;
+  align-items: flex-start;
 }
 
 .student {
